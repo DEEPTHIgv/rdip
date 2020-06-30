@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+img{
+	width:100px;
+	height:50px;
+	}
+[class="h"]{
+	text-align:right;
+	}
+.nav{
+	background-color:grey;
+	width:100%;
+
+	}
+ul{
+	list-style-type:none;
+	color:white;
+	}
+li{
+	display: inline;
+	padding:0px 20px 0px 0px;
+	}
+li a{
+	color:white;
+	text-decoration:none;
+	}
+</style>
+ </head>	
+<body>
+	<a href="https://www.iiit.ac.in/ "><img src="https://www.iiit.ac.in/img/iiit-new.png" ></a>
+	<a href="https://serc.iiit.ac.in/rdip" class="h">RDIP</a><br>
+	<div class="nav">
+		<ul>
+			<li><a href="homepage.html">Home</a></li>
+			<li><a href="registration.html">Registration Form</a></li>
+		</ul>
+	</div>
+
+	<form action="details.html">
+		<lable>Full Name: </lable><input type="text"><br>
+		<lable>E-mail: </lable><input type="text"><br>
+		<lable>Phone Number: </lable><input type="number"><br>
+
+		<lable>Gender:</lable>
+		<input type="radio" name="gender"><lable>Male</lable>
+		<input type="radio" name="gender"><lable>Female</lable>
+		<input type="radio" name="gender"><lable>Other</lable><br>
+
+		<lable>Reason for RDIP:</lable>
+		<input type="radio" name="reason"><lable>HTML</lable>
+		<input type="radio" name="reason"><lable>CSS</lable>
+		<input type="radio" name="reason"><lable>JavaScript</lable><br>
+		
+		<lable>College: </lable><input type="text"><br>
+
+		<input type="checkbox"><lable>I declare above details given by me are true</lable><br>
+
+		<input type="submit" class="button" >
+		<input type="reset" class="button" >
+
+	</form>
+</body>
+</html>
